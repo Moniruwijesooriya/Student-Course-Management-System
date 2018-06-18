@@ -17,8 +17,11 @@ public class NsbmProject {
     public static void main(String[] args) {
         //LoginFrame lf=new LoginFrame();
         //lf.setVisible(true);
-        AddStudentFrame asf=new AddStudentFrame();
-        asf.setVisible(true);
+        //AddStudentFrame asf=new AddStudentFrame();
+        //asf.setVisible(true);
+        MainPanelFrame mpf=new MainPanelFrame();
+        mpf.setVisible(true);
+        
     }
     
 }

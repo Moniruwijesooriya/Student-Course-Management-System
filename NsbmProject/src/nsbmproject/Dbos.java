@@ -94,4 +94,96 @@ public class Dbos {
         return 8;
     }
 
+    int addStudent(UgStudent stu){
+        try{
+            con =(Connection) DriverManager.getConnection(url, username, password);
+            String query="INSERT INTO student_ug VALUES (?,?,?,?,?,?,?,?,?,?)";
+            pst = (PreparedStatement) con.prepareStatement(query);
+            pst.setString(1, stu.getStu_id());
+            pst.setString(2, stu.getFaculty());
+            pst.setString(3, stu.getNic());
+            pst.setString(4, stu.getStu_name());
+            pst.setString(5, stu.getAddress());
+            pst.setString(6, stu.getLandline_number());
+            pst.setString(7, stu.getMobile_number());
+            pst.setString(8, stu.getEmail());
+            pst.setString(9, stu.getIntake_year());
+            pst.setString(10, stu.getIntake_month());
+            pst.executeUpdate();
+            return 1;
+        }
+        catch(Exception e){
+            System.out.println(e);
+            return 0;
+        }
+    
+    }
+    
+    int addResult(UgStudent stu){
+        try{
+            con =(Connection) DriverManager.getConnection(url, username, password);
+            String query ="INSERT INTO student_al VALUES(?,?,?,?,?,?,?,?,?,?,?,?)";
+            pst=(PreparedStatement) con.prepareStatement(query);
+            pst.setString(1,stu.getStu_id());
+            pst.setString(2,stu.getStream());
+            pst.setString(3,stu.getSub1());
+            pst.setString(4,stu.getSub2());
+            pst.setString(5,stu.getSub3());
+            pst.setString(6,stu.getEnglish_result());
+            pst.setString(7,stu.getResult1());
+            pst.setString(8,stu.getResult2());
+            pst.setString(9,stu.getResult3());
+            pst.setString(10,stu.getZscore());
+            pst.setString(11,stu.getDis_rank());
+            pst.setString(12,stu.getIsland_rank());
+            pst.executeUpdate();
+            return 1;
+        }
+        catch(Exception e){
+            System.out.println(e);
+            return 0;
+        }
+    }
+    
+    int addSubjectUgBs(Subject sub){
+        try{
+            con=(Connection)DriverManager.getConnection(url,username,password);
+            String query="INSERT INTO subject_ug_bs VALUES (?,?,?,?,?,?) ";
+            pst=(PreparedStatement) con.prepareStatement(query);
+            pst.setString(1,sub.getSubject_code());
+            pst.setString(2,sub.getSubject_name());
+            pst.setInt(3,sub.getSubject_credit());
+            pst.setInt(4,sub.getSubject_fee());
+            pst.setString(5,sub.getYear());
+            pst.setString(6,sub.getSemester());
+            
+            pst.executeUpdate();
+            return 1;
+        }
+        catch(Exception e){
+            System.out.println(e);
+            return 0;
+        }
+    }
+    
+    int addSubjectUgEs(Subject sub){
+        try{
+            con=(Connection)DriverManager.getConnection(url,username,password);
+            String query="INSERT INTO subject_ug_es VALUES (?,?,?,?,?,?) ";
+            pst=(PreparedStatement) con.prepareStatement(query);
+            pst.setString(1,sub.getSubject_code());
+            pst.setString(2,sub.getSubject_name());
+            pst.setInt(3,sub.getSubject_credit());
+            pst.setInt(4,sub.getSubject_fee());
+            pst.setString(5,sub.getYear());
+            pst.setString(6,sub.getSemester());
+            
+            pst.executeUpdate();
+            return 1;
+        }
+        catch(Exception e){
+            System.out.println(e);
+            return 0;
+        }
+    }
 }

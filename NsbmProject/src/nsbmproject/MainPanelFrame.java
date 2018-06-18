@@ -32,18 +32,39 @@ public class MainPanelFrame extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
+        add_bs_pg_student = new javax.swing.JButton();
+        add_bs_ug_student1 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
+        add_subject_bs_ug = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
+        jTabbedPane3 = new javax.swing.JTabbedPane();
+        jPanel6 = new javax.swing.JPanel();
+        add_bs_pg_student1 = new javax.swing.JButton();
+        add_es_ug_student = new javax.swing.JButton();
+        jPanel7 = new javax.swing.JPanel();
+        add_subject_bs_ug1 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
+        jTabbedPane4 = new javax.swing.JTabbedPane();
+        jPanel8 = new javax.swing.JPanel();
+        add_bs_pg_student2 = new javax.swing.JButton();
+        add_cs_ug_student = new javax.swing.JButton();
+        jPanel9 = new javax.swing.JPanel();
+        add_subject_bs_ug2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton2.setText("Add Student");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        add_bs_pg_student.setText("Add Postgraduate Student");
+        add_bs_pg_student.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                add_bs_pg_studentActionPerformed(evt);
+            }
+        });
+
+        add_bs_ug_student1.setText("Add Undergraduate Student");
+        add_bs_ug_student1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_bs_ug_student1ActionPerformed(evt);
             }
         });
 
@@ -52,29 +73,46 @@ public class MainPanelFrame extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(611, Short.MAX_VALUE))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(add_bs_ug_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(add_bs_pg_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(539, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(41, 41, 41)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(220, Short.MAX_VALUE))
+                .addGap(47, 47, 47)
+                .addComponent(add_bs_ug_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(add_bs_pg_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(139, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Student", jPanel4);
+
+        add_subject_bs_ug.setText("Add Subject");
+        add_subject_bs_ug.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ugActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 743, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(56, 56, 56)
+                .addComponent(add_subject_bs_ug, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(526, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 318, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(60, 60, 60)
+                .addComponent(add_subject_bs_ug, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(198, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Subjects", jPanel5);
@@ -95,33 +133,169 @@ public class MainPanelFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("School of Computing", jPanel2);
+        jTabbedPane1.addTab("School of Business", jPanel2);
+
+        add_bs_pg_student1.setText("Add Postgraduate Student");
+        add_bs_pg_student1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_bs_pg_student1ActionPerformed(evt);
+            }
+        });
+
+        add_es_ug_student.setText("Add Undergraduate Student");
+        add_es_ug_student.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_es_ug_studentActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(add_es_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(add_bs_pg_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(539, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(47, 47, 47)
+                .addComponent(add_es_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(add_bs_pg_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(139, Short.MAX_VALUE))
+        );
+
+        jTabbedPane3.addTab("Student", jPanel6);
+
+        add_subject_bs_ug1.setText("Add Subject");
+        add_subject_bs_ug1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(56, 56, 56)
+                .addComponent(add_subject_bs_ug1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(526, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(60, 60, 60)
+                .addComponent(add_subject_bs_ug1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(198, Short.MAX_VALUE))
+        );
+
+        jTabbedPane3.addTab("Subjects", jPanel7);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 854, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jTabbedPane3)
+                .addGap(106, 106, 106))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(43, Short.MAX_VALUE)
+                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("School of Engineering", jPanel3);
+
+        add_bs_pg_student2.setText("Add Postgraduate Student");
+        add_bs_pg_student2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_bs_pg_student2ActionPerformed(evt);
+            }
+        });
+
+        add_cs_ug_student.setText("Add Undergraduate Student");
+        add_cs_ug_student.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_cs_ug_studentActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(add_cs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(add_bs_pg_student2, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(539, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(47, 47, 47)
+                .addComponent(add_cs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(add_bs_pg_student2, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(139, Short.MAX_VALUE))
+        );
+
+        jTabbedPane4.addTab("Student", jPanel8);
+
+        add_subject_bs_ug2.setText("Add Subject");
+        add_subject_bs_ug2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(56, 56, 56)
+                .addComponent(add_subject_bs_ug2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(526, Short.MAX_VALUE))
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(60, 60, 60)
+                .addComponent(add_subject_bs_ug2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(198, Short.MAX_VALUE))
+        );
+
+        jTabbedPane4.addTab("Subjects", jPanel9);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 854, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jTabbedPane4)
+                .addGap(106, 106, 106))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(43, Short.MAX_VALUE)
+                .addComponent(jTabbedPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
-        jTabbedPane1.addTab("School of Business", jPanel1);
+        jTabbedPane1.addTab("School of Computing", jPanel1);
 
         jButton1.setText("Add User");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -162,9 +336,53 @@ public class MainPanelFrame extends javax.swing.JFrame {
             udf.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void add_bs_pg_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_pg_studentActionPerformed
+            
+        AddStudentFrame asf=new AddStudentFrame();
+        asf.setVisible(true);
+        asf.fac="bs";
+            
+    }//GEN-LAST:event_add_bs_pg_studentActionPerformed
+
+    private void add_bs_ug_student1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_ug_student1ActionPerformed
+
+    private void add_subject_bs_ugActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ugActionPerformed
+        AddSubject as=new AddSubject();
+        as.setVisible(true);
+        as.fac=11;//business 1 ug 1 
         
-    }//GEN-LAST:event_jButton2ActionPerformed
+        
+    }//GEN-LAST:event_add_subject_bs_ugActionPerformed
+
+    private void add_bs_pg_student1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_pg_student1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_pg_student1ActionPerformed
+
+    private void add_es_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_es_ug_studentActionPerformed
+        AddStudentFrame asf=new AddStudentFrame();
+        asf.setVisible(true);
+        asf.fac="es";
+    }//GEN-LAST:event_add_es_ug_studentActionPerformed
+
+    private void add_subject_bs_ug1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_subject_bs_ug1ActionPerformed
+
+    private void add_bs_pg_student2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_pg_student2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_pg_student2ActionPerformed
+
+    private void add_cs_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_cs_ug_studentActionPerformed
+        AddStudentFrame asf=new AddStudentFrame();
+        asf.setVisible(true);
+        asf.fac="cs";
+    }//GEN-LAST:event_add_cs_ug_studentActionPerformed
+
+    private void add_subject_bs_ug2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_subject_bs_ug2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -202,14 +420,28 @@ public class MainPanelFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton add_bs_pg_student;
+    private javax.swing.JButton add_bs_pg_student1;
+    private javax.swing.JButton add_bs_pg_student2;
+    private javax.swing.JButton add_bs_ug_student1;
+    private javax.swing.JButton add_cs_ug_student;
+    private javax.swing.JButton add_es_ug_student;
+    private javax.swing.JButton add_subject_bs_ug;
+    private javax.swing.JButton add_subject_bs_ug1;
+    private javax.swing.JButton add_subject_bs_ug2;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTabbedPane jTabbedPane3;
+    private javax.swing.JTabbedPane jTabbedPane4;
     // End of variables declaration//GEN-END:variables
 }

@@ -12,6 +12,20 @@ package nsbmproject;
 public class Student {
 
     /**
+     * @return the faculty
+     */
+    public String getFaculty() {
+        return faculty;
+    }
+
+    /**
+     * @param faculty the faculty to set
+     */
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
+
+    /**
      * @return the stu_id
      */
     public String getStu_id() {
@@ -145,5 +159,7 @@ public class Student {
     private String email;
     private String intake_year;
     private String intake_month;
+    private String faculty;
+    
     
 }
