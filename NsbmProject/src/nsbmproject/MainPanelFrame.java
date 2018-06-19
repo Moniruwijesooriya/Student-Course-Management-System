@@ -33,7 +33,7 @@ public class MainPanelFrame extends javax.swing.JFrame {
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
         add_bs_pg_student = new javax.swing.JButton();
-        add_bs_ug_student1 = new javax.swing.JButton();
+        add_bs_ug_student = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         add_subject_bs_ug = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
@@ -61,10 +61,10 @@ public class MainPanelFrame extends javax.swing.JFrame {
             }
         });
 
-        add_bs_ug_student1.setText("Add Undergraduate Student");
-        add_bs_ug_student1.addActionListener(new java.awt.event.ActionListener() {
+        add_bs_ug_student.setText("Add Undergraduate Student");
+        add_bs_ug_student.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_bs_ug_student1ActionPerformed(evt);
+                add_bs_ug_studentActionPerformed(evt);
             }
         });
 
@@ -75,7 +75,7 @@ public class MainPanelFrame extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(add_bs_ug_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(add_bs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(add_bs_pg_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(539, Short.MAX_VALUE))
         );
@@ -83,7 +83,7 @@ public class MainPanelFrame extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(47, 47, 47)
-                .addComponent(add_bs_ug_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(add_bs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(add_bs_pg_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(139, Short.MAX_VALUE))
@@ -341,17 +341,23 @@ public class MainPanelFrame extends javax.swing.JFrame {
         AddStudentFrame asf=new AddStudentFrame();
         asf.setVisible(true);
         asf.fac="bs";
+        
             
     }//GEN-LAST:event_add_bs_pg_studentActionPerformed
 
-    private void add_bs_ug_student1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_add_bs_ug_student1ActionPerformed
+    private void add_bs_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_studentActionPerformed
+        AddStudentFrame asf=new AddStudentFrame();
+        asf.setVisible(true);
+        asf.fac="bs";
+        asf.year="1";
+        asf.semester="1";
+    }//GEN-LAST:event_add_bs_ug_studentActionPerformed
 
     private void add_subject_bs_ugActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ugActionPerformed
         AddSubject as=new AddSubject();
         as.setVisible(true);
         as.fac=11;//business 1 ug 1 
+        
         
         
     }//GEN-LAST:event_add_subject_bs_ugActionPerformed
@@ -423,7 +429,7 @@ public class MainPanelFrame extends javax.swing.JFrame {
     private javax.swing.JButton add_bs_pg_student;
     private javax.swing.JButton add_bs_pg_student1;
     private javax.swing.JButton add_bs_pg_student2;
-    private javax.swing.JButton add_bs_ug_student1;
+    private javax.swing.JButton add_bs_ug_student;
     private javax.swing.JButton add_cs_ug_student;
     private javax.swing.JButton add_es_ug_student;
     private javax.swing.JButton add_subject_bs_ug;

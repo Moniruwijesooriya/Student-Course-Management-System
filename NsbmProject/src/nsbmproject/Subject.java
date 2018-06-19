@@ -12,6 +12,20 @@ package nsbmproject;
 public class Subject {
 
     /**
+     * @return the selection
+     */
+    public String getSelection() {
+        return selection;
+    }
+
+    /**
+     * @param selection the selection to set
+     */
+    public void setSelection(String selection) {
+        this.selection = selection;
+    }
+    
+    /**
      * @return the subject_code
      */
     public String getSubject_code() {
@@ -100,4 +114,6 @@ public class Subject {
     private int subject_fee;
     private String semester;
     private String year;
+    private String selection;
+    
 }

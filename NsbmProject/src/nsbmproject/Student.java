@@ -11,9 +11,7 @@ package nsbmproject;
  */
 public class Student {
 
-    /**
-     * @return the faculty
-     */
+    
     public String getFaculty() {
         return faculty;
     }
@@ -160,6 +158,7 @@ public class Student {
     private String intake_year;
     private String intake_month;
     private String faculty;
+    
     
     
 }

@@ -100,7 +100,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="add_bs_ug_student1" min="-2" pref="184" max="-2" attributes="0"/>
+                                  <Component id="add_bs_ug_student" min="-2" pref="184" max="-2" attributes="0"/>
                                   <Component id="add_bs_pg_student" min="-2" pref="184" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace pref="539" max="32767" attributes="0"/>
@@ -111,7 +111,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                              <Component id="add_bs_ug_student1" min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="add_bs_ug_student" min="-2" pref="57" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="add_bs_pg_student" min="-2" pref="57" max="-2" attributes="0"/>
                               <EmptySpace pref="139" max="32767" attributes="0"/>
@@ -128,12 +128,12 @@
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="add_bs_pg_studentActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JButton" name="add_bs_ug_student1">
+                    <Component class="javax.swing.JButton" name="add_bs_ug_student">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Add Undergraduate Student"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="add_bs_ug_student1ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="add_bs_ug_studentActionPerformed"/>
                       </Events>
                     </Component>
                   </SubComponents>

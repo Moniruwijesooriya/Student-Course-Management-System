@@ -13,10 +13,11 @@ import javax.swing.JOptionPane;
  */
 public class AddStudentFrame extends javax.swing.JFrame {
     String fac;
+    String semester,year;
     /**
      * Creates new form AddStudentFrame
      */
-    Dbos db=new Dbos();
+    Dbos db=new Dbos();//creating database object
     public AddStudentFrame() {
         initComponents();
     }
@@ -73,8 +74,9 @@ public class AddStudentFrame extends javax.swing.JFrame {
         txt_email = new javax.swing.JTextField();
         txt_stu_id = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("School of Business Student Enrollement");
 
         jLabel10.setText("AL Result");
@@ -437,24 +439,32 @@ public class AddStudentFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel1.setText("Step 1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addGap(23, 23, 23)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(29, 29, 29)
+                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(96, 96, 96)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -531,12 +541,20 @@ public class AddStudentFrame extends javax.swing.JFrame {
         int x=db.addStudent(stu);
         int y=db.addResult(stu);
         if(x==1&&y==1){
-            JOptionPane.showMessageDialog(this, "Student Added Successfully");
+            SelectSubjectFrame ssf=new SelectSubjectFrame();
+            ssf.semester=semester;
+            ssf.year=year;
+            ssf.stu_id=txt_stu_id.getText();
+            ssf.faculty=fac;
+            ssf.select_compulsory_subjects();
+            ssf.select_optional_subjects();
+            ssf.setVisible(true);
             dispose();
+            
             
         }
         else{
-            JOptionPane.showMessageDialog(this, "Error!");
+            JOptionPane.showMessageDialog(this, "Error in Student Adding!");
         }
     }//GEN-LAST:event_submitActionPerformed
 
@@ -595,6 +613,7 @@ public class AddStudentFrame extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> combo_res3;
     private javax.swing.JComboBox<String> combo_res_english;
     private javax.swing.JComboBox<String> combo_stream;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;

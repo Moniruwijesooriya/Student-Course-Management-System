@@ -21,6 +21,8 @@ public class NsbmProject {
         //asf.setVisible(true);
         MainPanelFrame mpf=new MainPanelFrame();
         mpf.setVisible(true);
+        //SelectSubjectFrame ssf=new SelectSubjectFrame();
+       // ssf.setVisible(true);
         
     }
     
