@@ -14,7 +14,8 @@ public class MainPanelFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainPanelFrame
      */
-    Dbos db=new Dbos();
+    Dbos db = new Dbos();
+
     public MainPanelFrame() {
         initComponents();
     }
@@ -32,61 +33,660 @@ public class MainPanelFrame extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
-        add_bs_pg_student = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jPanel18 = new javax.swing.JPanel();
+        jPanel20 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
         add_bs_ug_student = new javax.swing.JButton();
+        update_bs_ug_stu = new javax.swing.JButton();
+        view_bs_ug_stu = new javax.swing.JButton();
+        change_sub_bs_ug_stu = new javax.swing.JButton();
+        jPanel14 = new javax.swing.JPanel();
+        enter_bs_ug_exam_mark = new javax.swing.JButton();
+        enter_bs_ug_asg_mark = new javax.swing.JButton();
+        view_bs_ug_stu_result = new javax.swing.JButton();
+        jPanel16 = new javax.swing.JPanel();
+        update_yns_feb = new javax.swing.JButton();
+        update_yns_july = new javax.swing.JButton();
+        jPanel15 = new javax.swing.JPanel();
+        bs_ug_payment1 = new javax.swing.JButton();
+        bs_ug_payment = new javax.swing.JButton();
+        jPanel19 = new javax.swing.JPanel();
+        jPanel25 = new javax.swing.JPanel();
+        jPanel26 = new javax.swing.JPanel();
+        add_bs_ug_student2 = new javax.swing.JButton();
+        update_bs_ug_stu2 = new javax.swing.JButton();
+        view_bs_ug_stu2 = new javax.swing.JButton();
+        change_sub_bs_ug_stu2 = new javax.swing.JButton();
+        jPanel27 = new javax.swing.JPanel();
+        enter_bs_ug_exam_mark2 = new javax.swing.JButton();
+        enter_bs_ug_asg_mark2 = new javax.swing.JButton();
+        view_bs_ug_stu_result2 = new javax.swing.JButton();
+        jPanel28 = new javax.swing.JPanel();
+        update_yns_feb2 = new javax.swing.JButton();
+        update_yns_july2 = new javax.swing.JButton();
+        jPanel29 = new javax.swing.JPanel();
+        bs_ug_payment4 = new javax.swing.JButton();
+        bs_ug_payment5 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         add_subject_bs_ug = new javax.swing.JButton();
+        view_bs_ug_subjects = new javax.swing.JButton();
+        add_subject_bs_ug4 = new javax.swing.JButton();
+        view_bs_ug_subjects_ins = new javax.swing.JButton();
+        view_bs_ug_subjects_lec = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        jTabbedPane3 = new javax.swing.JTabbedPane();
-        jPanel6 = new javax.swing.JPanel();
-        add_bs_pg_student1 = new javax.swing.JButton();
-        add_es_ug_student = new javax.swing.JButton();
-        jPanel7 = new javax.swing.JPanel();
-        add_subject_bs_ug1 = new javax.swing.JButton();
+        jTabbedPane6 = new javax.swing.JTabbedPane();
+        jPanel11 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        jTabbedPane7 = new javax.swing.JTabbedPane();
+        jPanel21 = new javax.swing.JPanel();
+        jPanel22 = new javax.swing.JPanel();
+        jPanel17 = new javax.swing.JPanel();
+        add_bs_ug_student1 = new javax.swing.JButton();
+        update_bs_ug_stu1 = new javax.swing.JButton();
+        view_bs_ug_stu1 = new javax.swing.JButton();
+        change_sub_bs_ug_stu1 = new javax.swing.JButton();
+        jPanel23 = new javax.swing.JPanel();
+        enter_bs_ug_exam_mark1 = new javax.swing.JButton();
+        enter_bs_ug_asg_mark1 = new javax.swing.JButton();
+        view_bs_ug_stu_result1 = new javax.swing.JButton();
+        jPanel24 = new javax.swing.JPanel();
+        update_yns_feb1 = new javax.swing.JButton();
+        update_yns_july1 = new javax.swing.JButton();
+        jPanel30 = new javax.swing.JPanel();
+        bs_ug_payment2 = new javax.swing.JButton();
+        bs_ug_payment3 = new javax.swing.JButton();
+        jPanel31 = new javax.swing.JPanel();
+        jPanel32 = new javax.swing.JPanel();
+        jPanel33 = new javax.swing.JPanel();
+        add_bs_ug_student3 = new javax.swing.JButton();
+        update_bs_ug_stu3 = new javax.swing.JButton();
+        view_bs_ug_stu3 = new javax.swing.JButton();
+        change_sub_bs_ug_stu3 = new javax.swing.JButton();
+        jPanel34 = new javax.swing.JPanel();
+        enter_bs_ug_exam_mark3 = new javax.swing.JButton();
+        enter_bs_ug_asg_mark3 = new javax.swing.JButton();
+        view_bs_ug_stu_result3 = new javax.swing.JButton();
+        jPanel35 = new javax.swing.JPanel();
+        update_yns_feb3 = new javax.swing.JButton();
+        update_yns_july3 = new javax.swing.JButton();
+        jPanel36 = new javax.swing.JPanel();
+        bs_ug_payment6 = new javax.swing.JButton();
+        bs_ug_payment7 = new javax.swing.JButton();
+        jPanel37 = new javax.swing.JPanel();
+        add_subject_bs_ug3 = new javax.swing.JButton();
+        view_bs_ug_subjects1 = new javax.swing.JButton();
+        add_subject_bs_ug5 = new javax.swing.JButton();
+        view_bs_ug_subjects_ins1 = new javax.swing.JButton();
+        view_bs_ug_subjects_lec1 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jTabbedPane4 = new javax.swing.JTabbedPane();
-        jPanel8 = new javax.swing.JPanel();
-        add_bs_pg_student2 = new javax.swing.JButton();
-        add_cs_ug_student = new javax.swing.JButton();
-        jPanel9 = new javax.swing.JPanel();
-        add_subject_bs_ug2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        jTabbedPane8 = new javax.swing.JTabbedPane();
+        jPanel38 = new javax.swing.JPanel();
+        jPanel39 = new javax.swing.JPanel();
+        jTabbedPane9 = new javax.swing.JTabbedPane();
+        jPanel40 = new javax.swing.JPanel();
+        jPanel41 = new javax.swing.JPanel();
+        jPanel42 = new javax.swing.JPanel();
+        add_bs_ug_student4 = new javax.swing.JButton();
+        update_bs_ug_stu4 = new javax.swing.JButton();
+        view_bs_ug_stu4 = new javax.swing.JButton();
+        change_sub_bs_ug_stu4 = new javax.swing.JButton();
+        jPanel43 = new javax.swing.JPanel();
+        enter_bs_ug_exam_mark4 = new javax.swing.JButton();
+        enter_bs_ug_asg_mark4 = new javax.swing.JButton();
+        view_bs_ug_stu_result4 = new javax.swing.JButton();
+        jPanel44 = new javax.swing.JPanel();
+        update_yns_feb4 = new javax.swing.JButton();
+        update_yns_july4 = new javax.swing.JButton();
+        jPanel45 = new javax.swing.JPanel();
+        bs_ug_payment8 = new javax.swing.JButton();
+        bs_ug_payment9 = new javax.swing.JButton();
+        jPanel46 = new javax.swing.JPanel();
+        jPanel47 = new javax.swing.JPanel();
+        jPanel48 = new javax.swing.JPanel();
+        add_bs_ug_student5 = new javax.swing.JButton();
+        update_bs_ug_stu5 = new javax.swing.JButton();
+        view_bs_ug_stu5 = new javax.swing.JButton();
+        change_sub_bs_ug_stu5 = new javax.swing.JButton();
+        jPanel49 = new javax.swing.JPanel();
+        enter_bs_ug_exam_mark5 = new javax.swing.JButton();
+        enter_bs_ug_asg_mark5 = new javax.swing.JButton();
+        view_bs_ug_stu_result5 = new javax.swing.JButton();
+        jPanel50 = new javax.swing.JPanel();
+        update_yns_feb5 = new javax.swing.JButton();
+        update_yns_july5 = new javax.swing.JButton();
+        jPanel51 = new javax.swing.JPanel();
+        bs_ug_payment10 = new javax.swing.JButton();
+        bs_ug_payment11 = new javax.swing.JButton();
+        jPanel52 = new javax.swing.JPanel();
+        add_subject_bs_ug6 = new javax.swing.JButton();
+        view_bs_ug_subjects2 = new javax.swing.JButton();
+        add_subject_bs_ug7 = new javax.swing.JButton();
+        view_bs_ug_subjects_ins2 = new javax.swing.JButton();
+        view_bs_ug_subjects_lec2 = new javax.swing.JButton();
+        academic_dep = new javax.swing.JButton();
+        log_out = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("NSBM Green University");
 
-        add_bs_pg_student.setText("Add Postgraduate Student");
-        add_bs_pg_student.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_bs_pg_studentActionPerformed(evt);
-            }
-        });
+        jPanel18.setBackground(new java.awt.Color(204, 204, 204));
 
-        add_bs_ug_student.setText("Add Undergraduate Student");
+        jPanel20.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel13.setBackground(new java.awt.Color(204, 204, 204));
+
+        add_bs_ug_student.setText("Add  Student");
         add_bs_ug_student.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 add_bs_ug_studentActionPerformed(evt);
             }
         });
 
+        update_bs_ug_stu.setText("Update Student Details");
+        update_bs_ug_stu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_bs_ug_stuActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu.setText("View Students");
+        view_bs_ug_stu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stuActionPerformed(evt);
+            }
+        });
+
+        change_sub_bs_ug_stu.setText("Change Student Subject");
+        change_sub_bs_ug_stu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                change_sub_bs_ug_stuActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(add_bs_ug_student, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(update_bs_ug_stu, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                            .addComponent(view_bs_ug_stu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(change_sub_bs_ug_stu, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(add_bs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_bs_ug_stu, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(change_sub_bs_ug_stu, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
+        );
+
+        jPanel14.setBackground(new java.awt.Color(204, 204, 204));
+
+        enter_bs_ug_exam_mark.setText("Enter Examination Marks");
+        enter_bs_ug_exam_mark.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_exam_markActionPerformed(evt);
+            }
+        });
+
+        enter_bs_ug_asg_mark.setText("Enter Assignment Marks");
+        enter_bs_ug_asg_mark.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_asg_markActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu_result.setText("View Student Result");
+        view_bs_ug_stu_result.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu_resultActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(enter_bs_ug_exam_mark, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(enter_bs_ug_asg_mark, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(view_bs_ug_stu_result, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(enter_bs_ug_exam_mark, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(enter_bs_ug_asg_mark, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu_result, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addGap(29, 29, 29))
+        );
+
+        jPanel16.setBackground(new java.awt.Color(204, 204, 204));
+
+        update_yns_feb.setText("Update Semester And Year (February Intake)");
+        update_yns_feb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_febActionPerformed(evt);
+            }
+        });
+
+        update_yns_july.setText("Update Semester And Year (July Intake)");
+        update_yns_july.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_julyActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(update_yns_feb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(update_yns_july, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(update_yns_feb, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_yns_july, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel15.setBackground(new java.awt.Color(204, 204, 204));
+
+        bs_ug_payment1.setText("Payment History");
+        bs_ug_payment1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment1ActionPerformed(evt);
+            }
+        });
+
+        bs_ug_payment.setText("Payments");
+        bs_ug_payment.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_paymentActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bs_ug_payment, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bs_ug_payment1, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bs_ug_payment, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(bs_ug_payment1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
+        jPanel20.setLayout(jPanel20Layout);
+        jPanel20Layout.setHorizontalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+        jPanel20Layout.setVerticalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel20Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(78, Short.MAX_VALUE))
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(55, Short.MAX_VALUE))
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jTabbedPane5.addTab("Undergraduate", jPanel18);
+
+        jPanel19.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel25.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel26.setBackground(new java.awt.Color(204, 204, 204));
+
+        add_bs_ug_student2.setText("Add  Student");
+        add_bs_ug_student2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_bs_ug_student2ActionPerformed(evt);
+            }
+        });
+
+        update_bs_ug_stu2.setText("Update Student Details");
+        update_bs_ug_stu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_bs_ug_stu2ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu2.setText("View Students");
+        view_bs_ug_stu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu2ActionPerformed(evt);
+            }
+        });
+
+        change_sub_bs_ug_stu2.setText("Change Student Subject");
+        change_sub_bs_ug_stu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                change_sub_bs_ug_stu2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
+        jPanel26.setLayout(jPanel26Layout);
+        jPanel26Layout.setHorizontalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel26Layout.createSequentialGroup()
+                .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel26Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(add_bs_ug_student2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(update_bs_ug_stu2, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                            .addComponent(view_bs_ug_stu2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel26Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(change_sub_bs_ug_stu2, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel26Layout.setVerticalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel26Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(add_bs_ug_student2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_bs_ug_stu2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(change_sub_bs_ug_stu2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
+        );
+
+        jPanel27.setBackground(new java.awt.Color(204, 204, 204));
+
+        enter_bs_ug_exam_mark2.setText("Enter Examination Marks");
+        enter_bs_ug_exam_mark2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_exam_mark2ActionPerformed(evt);
+            }
+        });
+
+        enter_bs_ug_asg_mark2.setText("Enter Assignment Marks");
+        enter_bs_ug_asg_mark2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_asg_mark2ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu_result2.setText("View Student Result");
+        view_bs_ug_stu_result2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu_result2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
+        jPanel27.setLayout(jPanel27Layout);
+        jPanel27Layout.setHorizontalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel27Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel27Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(enter_bs_ug_exam_mark2, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel27Layout.createSequentialGroup()
+                        .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(enter_bs_ug_asg_mark2, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(view_bs_ug_stu_result2, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel27Layout.setVerticalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel27Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(enter_bs_ug_exam_mark2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(enter_bs_ug_asg_mark2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu_result2, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addGap(29, 29, 29))
+        );
+
+        jPanel28.setBackground(new java.awt.Color(204, 204, 204));
+
+        update_yns_feb2.setText("Update Semester And Year (February Intake)");
+        update_yns_feb2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_feb2ActionPerformed(evt);
+            }
+        });
+
+        update_yns_july2.setText("Update Semester And Year (July Intake)");
+        update_yns_july2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_july2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
+        jPanel28.setLayout(jPanel28Layout);
+        jPanel28Layout.setHorizontalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel28Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(update_yns_feb2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(update_yns_july2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        jPanel28Layout.setVerticalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel28Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(update_yns_feb2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_yns_july2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel29.setBackground(new java.awt.Color(204, 204, 204));
+
+        bs_ug_payment4.setText("Payment History");
+        bs_ug_payment4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment4ActionPerformed(evt);
+            }
+        });
+
+        bs_ug_payment5.setText("Payments");
+        bs_ug_payment5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
+        jPanel29.setLayout(jPanel29Layout);
+        jPanel29Layout.setHorizontalGroup(
+            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel29Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bs_ug_payment5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bs_ug_payment4, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        jPanel29Layout.setVerticalGroup(
+            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel29Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bs_ug_payment5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(bs_ug_payment4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
+        jPanel25.setLayout(jPanel25Layout);
+        jPanel25Layout.setHorizontalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel25Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel26, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+        jPanel25Layout.setVerticalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel25Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel25Layout.createSequentialGroup()
+                        .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel26, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel25Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(78, Short.MAX_VALUE))
+                    .addGroup(jPanel25Layout.createSequentialGroup()
+                        .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(jPanel29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+
+        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
+        jPanel19.setLayout(jPanel19Layout);
+        jPanel19Layout.setHorizontalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(55, Short.MAX_VALUE))
+        );
+        jPanel19Layout.setVerticalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jTabbedPane5.addTab("Postgraduate", jPanel19);
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane5)
+                .addContainerGap())
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGap(22, 22, 22))
+        );
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(add_bs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(add_bs_pg_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(539, Short.MAX_VALUE))
+                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 60, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(add_bs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(add_bs_pg_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(139, Short.MAX_VALUE))
+            .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("Student", jPanel4);
@@ -98,21 +698,70 @@ public class MainPanelFrame extends javax.swing.JFrame {
             }
         });
 
+        view_bs_ug_subjects.setText("View Undergraduate Subjects");
+        view_bs_ug_subjects.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjectsActionPerformed(evt);
+            }
+        });
+
+        add_subject_bs_ug4.setText("Update Subject");
+        add_subject_bs_ug4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug4ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects_ins.setText("View UG Subjects Teaching Allocation of Instructors");
+        view_bs_ug_subjects_ins.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects_insActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects_lec.setText("View UG Subjects Teaching Allocation of Lecturers");
+        view_bs_ug_subjects_lec.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects_lecActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(56, 56, 56)
-                .addComponent(add_subject_bs_ug, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(526, Short.MAX_VALUE))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(view_bs_ug_subjects, javax.swing.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE)
+                    .addComponent(add_subject_bs_ug4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(add_subject_bs_ug, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(79, 79, 79)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(view_bs_ug_subjects_lec, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(view_bs_ug_subjects_ins, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(318, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(60, 60, 60)
-                .addComponent(add_subject_bs_ug, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(198, Short.MAX_VALUE))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(add_subject_bs_ug, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(view_bs_ug_subjects_lec, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(add_subject_bs_ug4, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(view_bs_ug_subjects, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(view_bs_ug_subjects_ins, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(240, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Subjects", jPanel5);
@@ -122,185 +771,1259 @@ public class MainPanelFrame extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jTabbedPane2)
-                .addGap(106, 106, 106))
+                .addContainerGap()
+                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 965, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(43, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(43, Short.MAX_VALUE)
-                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("School of Business", jPanel2);
 
-        add_bs_pg_student1.setText("Add Postgraduate Student");
-        add_bs_pg_student1.addActionListener(new java.awt.event.ActionListener() {
+        jPanel21.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel22.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel17.setBackground(new java.awt.Color(204, 204, 204));
+
+        add_bs_ug_student1.setText("Add  Student");
+        add_bs_ug_student1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_bs_pg_student1ActionPerformed(evt);
+                add_bs_ug_student1ActionPerformed(evt);
             }
         });
 
-        add_es_ug_student.setText("Add Undergraduate Student");
-        add_es_ug_student.addActionListener(new java.awt.event.ActionListener() {
+        update_bs_ug_stu1.setText("Update Student Details");
+        update_bs_ug_stu1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_es_ug_studentActionPerformed(evt);
+                update_bs_ug_stu1ActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(add_es_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(add_bs_pg_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(539, Short.MAX_VALUE))
+        view_bs_ug_stu1.setText("View Students");
+        view_bs_ug_stu1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu1ActionPerformed(evt);
+            }
+        });
+
+        change_sub_bs_ug_stu1.setText("Change Student Subject");
+        change_sub_bs_ug_stu1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                change_sub_bs_ug_stu1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(add_bs_ug_student1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(update_bs_ug_stu1, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                            .addComponent(view_bs_ug_stu1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(change_sub_bs_ug_stu1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(add_es_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(add_bs_ug_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(add_bs_pg_student1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addComponent(update_bs_ug_stu1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(change_sub_bs_ug_stu1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
         );
 
-        jTabbedPane3.addTab("Student", jPanel6);
+        jPanel23.setBackground(new java.awt.Color(204, 204, 204));
 
-        add_subject_bs_ug1.setText("Add Subject");
-        add_subject_bs_ug1.addActionListener(new java.awt.event.ActionListener() {
+        enter_bs_ug_exam_mark1.setText("Enter Examination Marks");
+        enter_bs_ug_exam_mark1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_subject_bs_ug1ActionPerformed(evt);
+                enter_bs_ug_exam_mark1ActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addGap(56, 56, 56)
-                .addComponent(add_subject_bs_ug1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(526, Short.MAX_VALUE))
+        enter_bs_ug_asg_mark1.setText("Enter Assignment Marks");
+        enter_bs_ug_asg_mark1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_asg_mark1ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu_result1.setText("View Student Result");
+        view_bs_ug_stu_result1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu_result1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
+        jPanel23.setLayout(jPanel23Layout);
+        jPanel23Layout.setHorizontalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel23Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(enter_bs_ug_exam_mark1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel23Layout.createSequentialGroup()
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(enter_bs_ug_asg_mark1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(view_bs_ug_stu_result1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addGap(60, 60, 60)
-                .addComponent(add_subject_bs_ug1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(198, Short.MAX_VALUE))
+        jPanel23Layout.setVerticalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel23Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(enter_bs_ug_exam_mark1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(enter_bs_ug_asg_mark1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu_result1, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addGap(29, 29, 29))
         );
 
-        jTabbedPane3.addTab("Subjects", jPanel7);
+        jPanel24.setBackground(new java.awt.Color(204, 204, 204));
+
+        update_yns_feb1.setText("Update Semester And Year (February Intake)");
+        update_yns_feb1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_feb1ActionPerformed(evt);
+            }
+        });
+
+        update_yns_july1.setText("Update Semester And Year (July Intake)");
+        update_yns_july1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_july1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
+        jPanel24.setLayout(jPanel24Layout);
+        jPanel24Layout.setHorizontalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(update_yns_feb1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(update_yns_july1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        jPanel24Layout.setVerticalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(update_yns_feb1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_yns_july1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel30.setBackground(new java.awt.Color(204, 204, 204));
+
+        bs_ug_payment2.setText("Payment History");
+        bs_ug_payment2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment2ActionPerformed(evt);
+            }
+        });
+
+        bs_ug_payment3.setText("Payments");
+        bs_ug_payment3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel30Layout = new javax.swing.GroupLayout(jPanel30);
+        jPanel30.setLayout(jPanel30Layout);
+        jPanel30Layout.setHorizontalGroup(
+            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel30Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bs_ug_payment3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bs_ug_payment2, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        jPanel30Layout.setVerticalGroup(
+            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel30Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bs_ug_payment3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(bs_ug_payment2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
+        jPanel22.setLayout(jPanel22Layout);
+        jPanel22Layout.setHorizontalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jPanel23, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+        jPanel22Layout.setVerticalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel22Layout.createSequentialGroup()
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel22Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(78, Short.MAX_VALUE))
+                    .addGroup(jPanel22Layout.createSequentialGroup()
+                        .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(jPanel30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(55, Short.MAX_VALUE))
+        );
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jTabbedPane7.addTab("Undergraduate", jPanel21);
+
+        jPanel31.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel32.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel33.setBackground(new java.awt.Color(204, 204, 204));
+
+        add_bs_ug_student3.setText("Add  Student");
+        add_bs_ug_student3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_bs_ug_student3ActionPerformed(evt);
+            }
+        });
+
+        update_bs_ug_stu3.setText("Update Student Details");
+        update_bs_ug_stu3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_bs_ug_stu3ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu3.setText("View Students");
+        view_bs_ug_stu3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu3ActionPerformed(evt);
+            }
+        });
+
+        change_sub_bs_ug_stu3.setText("Change Student Subject");
+        change_sub_bs_ug_stu3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                change_sub_bs_ug_stu3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(add_bs_ug_student3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(update_bs_ug_stu3, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                            .addComponent(view_bs_ug_stu3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(change_sub_bs_ug_stu3, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(add_bs_ug_student3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_bs_ug_stu3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(change_sub_bs_ug_stu3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
+        );
+
+        jPanel34.setBackground(new java.awt.Color(204, 204, 204));
+
+        enter_bs_ug_exam_mark3.setText("Enter Examination Marks");
+        enter_bs_ug_exam_mark3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_exam_mark3ActionPerformed(evt);
+            }
+        });
+
+        enter_bs_ug_asg_mark3.setText("Enter Assignment Marks");
+        enter_bs_ug_asg_mark3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_asg_mark3ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu_result3.setText("View Student Result");
+        view_bs_ug_stu_result3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu_result3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
+        jPanel34.setLayout(jPanel34Layout);
+        jPanel34Layout.setHorizontalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel34Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(enter_bs_ug_exam_mark3, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel34Layout.createSequentialGroup()
+                        .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(enter_bs_ug_asg_mark3, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(view_bs_ug_stu_result3, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel34Layout.setVerticalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(enter_bs_ug_exam_mark3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(enter_bs_ug_asg_mark3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu_result3, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addGap(29, 29, 29))
+        );
+
+        jPanel35.setBackground(new java.awt.Color(204, 204, 204));
+
+        update_yns_feb3.setText("Update Semester And Year (February Intake)");
+        update_yns_feb3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_feb3ActionPerformed(evt);
+            }
+        });
+
+        update_yns_july3.setText("Update Semester And Year (July Intake)");
+        update_yns_july3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_july3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
+        jPanel35.setLayout(jPanel35Layout);
+        jPanel35Layout.setHorizontalGroup(
+            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel35Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(update_yns_feb3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(update_yns_july3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        jPanel35Layout.setVerticalGroup(
+            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel35Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(update_yns_feb3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_yns_july3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel36.setBackground(new java.awt.Color(204, 204, 204));
+
+        bs_ug_payment6.setText("Payment History");
+        bs_ug_payment6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment6ActionPerformed(evt);
+            }
+        });
+
+        bs_ug_payment7.setText("Payments");
+        bs_ug_payment7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment7ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
+        jPanel36.setLayout(jPanel36Layout);
+        jPanel36Layout.setHorizontalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel36Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bs_ug_payment7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bs_ug_payment6, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        jPanel36Layout.setVerticalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel36Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bs_ug_payment7, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(bs_ug_payment6, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel32Layout.createSequentialGroup()
+                        .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel32Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(78, Short.MAX_VALUE))
+                    .addGroup(jPanel32Layout.createSequentialGroup()
+                        .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+
+        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
+        jPanel31.setLayout(jPanel31Layout);
+        jPanel31Layout.setHorizontalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel31Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(55, Short.MAX_VALUE))
+        );
+        jPanel31Layout.setVerticalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel31Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jTabbedPane7.addTab("Postgraduate", jPanel31);
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane7)
+                .addContainerGap())
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGap(22, 22, 22))
+        );
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 60, Short.MAX_VALUE))
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        jTabbedPane6.addTab("Student", jPanel11);
+
+        add_subject_bs_ug3.setText("Add Subject");
+        add_subject_bs_ug3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug3ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects1.setText("View Undergraduate Subjects");
+        view_bs_ug_subjects1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects1ActionPerformed(evt);
+            }
+        });
+
+        add_subject_bs_ug5.setText("Update Subject");
+        add_subject_bs_ug5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug5ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects_ins1.setText("View UG Subjects Teaching Allocation of Instructors");
+        view_bs_ug_subjects_ins1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects_ins1ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects_lec1.setText("View UG Subjects Teaching Allocation of Lecturers");
+        view_bs_ug_subjects_lec1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects_lec1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel37Layout = new javax.swing.GroupLayout(jPanel37);
+        jPanel37.setLayout(jPanel37Layout);
+        jPanel37Layout.setHorizontalGroup(
+            jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel37Layout.createSequentialGroup()
+                .addGap(56, 56, 56)
+                .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(view_bs_ug_subjects1, javax.swing.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE)
+                    .addComponent(add_subject_bs_ug5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(add_subject_bs_ug3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(79, 79, 79)
+                .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(view_bs_ug_subjects_lec1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(view_bs_ug_subjects_ins1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(318, Short.MAX_VALUE))
+        );
+        jPanel37Layout.setVerticalGroup(
+            jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel37Layout.createSequentialGroup()
+                .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel37Layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(add_subject_bs_ug3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel37Layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(view_bs_ug_subjects_lec1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel37Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(add_subject_bs_ug5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(view_bs_ug_subjects1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel37Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(view_bs_ug_subjects_ins1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(240, Short.MAX_VALUE))
+        );
+
+        jTabbedPane6.addTab("Subjects", jPanel37);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(jTabbedPane3)
-                .addGap(106, 106, 106))
+                .addContainerGap()
+                .addComponent(jTabbedPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 965, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(43, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(43, Short.MAX_VALUE)
-                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("School of Engineering", jPanel3);
 
-        add_bs_pg_student2.setText("Add Postgraduate Student");
-        add_bs_pg_student2.addActionListener(new java.awt.event.ActionListener() {
+        jPanel40.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel41.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel42.setBackground(new java.awt.Color(204, 204, 204));
+
+        add_bs_ug_student4.setText("Add  Student");
+        add_bs_ug_student4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_bs_pg_student2ActionPerformed(evt);
+                add_bs_ug_student4ActionPerformed(evt);
             }
         });
 
-        add_cs_ug_student.setText("Add Undergraduate Student");
-        add_cs_ug_student.addActionListener(new java.awt.event.ActionListener() {
+        update_bs_ug_stu4.setText("Update Student Details");
+        update_bs_ug_stu4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_cs_ug_studentActionPerformed(evt);
+                update_bs_ug_stu4ActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(add_cs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(add_bs_pg_student2, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(539, Short.MAX_VALUE))
+        view_bs_ug_stu4.setText("View Students");
+        view_bs_ug_stu4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu4ActionPerformed(evt);
+            }
+        });
+
+        change_sub_bs_ug_stu4.setText("Change Student Subject");
+        change_sub_bs_ug_stu4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                change_sub_bs_ug_stu4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
+        jPanel42.setLayout(jPanel42Layout);
+        jPanel42Layout.setHorizontalGroup(
+            jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel42Layout.createSequentialGroup()
+                .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel42Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(add_bs_ug_student4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(update_bs_ug_stu4, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                            .addComponent(view_bs_ug_stu4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel42Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(change_sub_bs_ug_stu4, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(add_cs_ug_student, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+        jPanel42Layout.setVerticalGroup(
+            jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel42Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(add_bs_ug_student4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(add_bs_pg_student2, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addComponent(update_bs_ug_stu4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(change_sub_bs_ug_stu4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
         );
 
-        jTabbedPane4.addTab("Student", jPanel8);
+        jPanel43.setBackground(new java.awt.Color(204, 204, 204));
 
-        add_subject_bs_ug2.setText("Add Subject");
-        add_subject_bs_ug2.addActionListener(new java.awt.event.ActionListener() {
+        enter_bs_ug_exam_mark4.setText("Enter Examination Marks");
+        enter_bs_ug_exam_mark4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                add_subject_bs_ug2ActionPerformed(evt);
+                enter_bs_ug_exam_mark4ActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(56, 56, 56)
-                .addComponent(add_subject_bs_ug2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(526, Short.MAX_VALUE))
+        enter_bs_ug_asg_mark4.setText("Enter Assignment Marks");
+        enter_bs_ug_asg_mark4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_asg_mark4ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu_result4.setText("View Student Result");
+        view_bs_ug_stu_result4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu_result4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel43Layout = new javax.swing.GroupLayout(jPanel43);
+        jPanel43.setLayout(jPanel43Layout);
+        jPanel43Layout.setHorizontalGroup(
+            jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel43Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel43Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(enter_bs_ug_exam_mark4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel43Layout.createSequentialGroup()
+                        .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(enter_bs_ug_asg_mark4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(view_bs_ug_stu_result4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(60, 60, 60)
-                .addComponent(add_subject_bs_ug2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(198, Short.MAX_VALUE))
+        jPanel43Layout.setVerticalGroup(
+            jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel43Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(enter_bs_ug_exam_mark4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(enter_bs_ug_asg_mark4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu_result4, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addGap(29, 29, 29))
         );
 
-        jTabbedPane4.addTab("Subjects", jPanel9);
+        jPanel44.setBackground(new java.awt.Color(204, 204, 204));
+
+        update_yns_feb4.setText("Update Semester And Year (February Intake)");
+        update_yns_feb4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_feb4ActionPerformed(evt);
+            }
+        });
+
+        update_yns_july4.setText("Update Semester And Year (July Intake)");
+        update_yns_july4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_july4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
+        jPanel44.setLayout(jPanel44Layout);
+        jPanel44Layout.setHorizontalGroup(
+            jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel44Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(update_yns_feb4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(update_yns_july4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        jPanel44Layout.setVerticalGroup(
+            jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel44Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(update_yns_feb4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_yns_july4, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel45.setBackground(new java.awt.Color(204, 204, 204));
+
+        bs_ug_payment8.setText("Payment History");
+        bs_ug_payment8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment8ActionPerformed(evt);
+            }
+        });
+
+        bs_ug_payment9.setText("Payments");
+        bs_ug_payment9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment9ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
+        jPanel45.setLayout(jPanel45Layout);
+        jPanel45Layout.setHorizontalGroup(
+            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel45Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bs_ug_payment9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bs_ug_payment8, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        jPanel45Layout.setVerticalGroup(
+            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel45Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bs_ug_payment9, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(bs_ug_payment8, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
+        jPanel41.setLayout(jPanel41Layout);
+        jPanel41Layout.setHorizontalGroup(
+            jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel41Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jPanel43, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+        jPanel41Layout.setVerticalGroup(
+            jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel41Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel41Layout.createSequentialGroup()
+                        .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel41Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(78, Short.MAX_VALUE))
+                    .addGroup(jPanel41Layout.createSequentialGroup()
+                        .addComponent(jPanel44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(jPanel45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+
+        javax.swing.GroupLayout jPanel40Layout = new javax.swing.GroupLayout(jPanel40);
+        jPanel40.setLayout(jPanel40Layout);
+        jPanel40Layout.setHorizontalGroup(
+            jPanel40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel40Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(55, Short.MAX_VALUE))
+        );
+        jPanel40Layout.setVerticalGroup(
+            jPanel40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel40Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jTabbedPane9.addTab("Undergraduate", jPanel40);
+
+        jPanel46.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel47.setBackground(new java.awt.Color(204, 204, 204));
+
+        jPanel48.setBackground(new java.awt.Color(204, 204, 204));
+
+        add_bs_ug_student5.setText("Add  Student");
+        add_bs_ug_student5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_bs_ug_student5ActionPerformed(evt);
+            }
+        });
+
+        update_bs_ug_stu5.setText("Update Student Details");
+        update_bs_ug_stu5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_bs_ug_stu5ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu5.setText("View Students");
+        view_bs_ug_stu5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu5ActionPerformed(evt);
+            }
+        });
+
+        change_sub_bs_ug_stu5.setText("Change Student Subject");
+        change_sub_bs_ug_stu5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                change_sub_bs_ug_stu5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel48Layout = new javax.swing.GroupLayout(jPanel48);
+        jPanel48.setLayout(jPanel48Layout);
+        jPanel48Layout.setHorizontalGroup(
+            jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel48Layout.createSequentialGroup()
+                .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel48Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addGroup(jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(add_bs_ug_student5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(update_bs_ug_stu5, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                            .addComponent(view_bs_ug_stu5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel48Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(change_sub_bs_ug_stu5, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel48Layout.setVerticalGroup(
+            jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel48Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(add_bs_ug_student5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_bs_ug_stu5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(change_sub_bs_ug_stu5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
+        );
+
+        jPanel49.setBackground(new java.awt.Color(204, 204, 204));
+
+        enter_bs_ug_exam_mark5.setText("Enter Examination Marks");
+        enter_bs_ug_exam_mark5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_exam_mark5ActionPerformed(evt);
+            }
+        });
+
+        enter_bs_ug_asg_mark5.setText("Enter Assignment Marks");
+        enter_bs_ug_asg_mark5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                enter_bs_ug_asg_mark5ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_stu_result5.setText("View Student Result");
+        view_bs_ug_stu_result5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_stu_result5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel49Layout = new javax.swing.GroupLayout(jPanel49);
+        jPanel49.setLayout(jPanel49Layout);
+        jPanel49Layout.setHorizontalGroup(
+            jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel49Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel49Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(enter_bs_ug_exam_mark5, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel49Layout.createSequentialGroup()
+                        .addGroup(jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(enter_bs_ug_asg_mark5, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(view_bs_ug_stu_result5, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel49Layout.setVerticalGroup(
+            jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel49Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(enter_bs_ug_exam_mark5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(enter_bs_ug_asg_mark5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(view_bs_ug_stu_result5, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addGap(29, 29, 29))
+        );
+
+        jPanel50.setBackground(new java.awt.Color(204, 204, 204));
+
+        update_yns_feb5.setText("Update Semester And Year (February Intake)");
+        update_yns_feb5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_feb5ActionPerformed(evt);
+            }
+        });
+
+        update_yns_july5.setText("Update Semester And Year (July Intake)");
+        update_yns_july5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                update_yns_july5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel50Layout = new javax.swing.GroupLayout(jPanel50);
+        jPanel50.setLayout(jPanel50Layout);
+        jPanel50Layout.setHorizontalGroup(
+            jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel50Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(update_yns_feb5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(update_yns_july5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        jPanel50Layout.setVerticalGroup(
+            jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel50Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(update_yns_feb5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(update_yns_july5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel51.setBackground(new java.awt.Color(204, 204, 204));
+
+        bs_ug_payment10.setText("Payment History");
+        bs_ug_payment10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment10ActionPerformed(evt);
+            }
+        });
+
+        bs_ug_payment11.setText("Payments");
+        bs_ug_payment11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bs_ug_payment11ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
+        jPanel51.setLayout(jPanel51Layout);
+        jPanel51Layout.setHorizontalGroup(
+            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel51Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bs_ug_payment11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bs_ug_payment10, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        jPanel51Layout.setVerticalGroup(
+            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel51Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bs_ug_payment11, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(bs_ug_payment10, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel47Layout = new javax.swing.GroupLayout(jPanel47);
+        jPanel47.setLayout(jPanel47Layout);
+        jPanel47Layout.setHorizontalGroup(
+            jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel47Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel48, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jPanel49, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel51, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
+        );
+        jPanel47Layout.setVerticalGroup(
+            jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel47Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel47Layout.createSequentialGroup()
+                        .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel48, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel47Layout.createSequentialGroup()
+                                .addGap(34, 34, 34)
+                                .addComponent(jPanel49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(78, Short.MAX_VALUE))
+                    .addGroup(jPanel47Layout.createSequentialGroup()
+                        .addComponent(jPanel50, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(jPanel51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+
+        javax.swing.GroupLayout jPanel46Layout = new javax.swing.GroupLayout(jPanel46);
+        jPanel46.setLayout(jPanel46Layout);
+        jPanel46Layout.setHorizontalGroup(
+            jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel46Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(55, Short.MAX_VALUE))
+        );
+        jPanel46Layout.setVerticalGroup(
+            jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel46Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jPanel47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
+        );
+
+        jTabbedPane9.addTab("Postgraduate", jPanel46);
+
+        javax.swing.GroupLayout jPanel39Layout = new javax.swing.GroupLayout(jPanel39);
+        jPanel39.setLayout(jPanel39Layout);
+        jPanel39Layout.setHorizontalGroup(
+            jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel39Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane9)
+                .addContainerGap())
+        );
+        jPanel39Layout.setVerticalGroup(
+            jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel39Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGap(22, 22, 22))
+        );
+
+        javax.swing.GroupLayout jPanel38Layout = new javax.swing.GroupLayout(jPanel38);
+        jPanel38.setLayout(jPanel38Layout);
+        jPanel38Layout.setHorizontalGroup(
+            jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel38Layout.createSequentialGroup()
+                .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 60, Short.MAX_VALUE))
+        );
+        jPanel38Layout.setVerticalGroup(
+            jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        jTabbedPane8.addTab("Student", jPanel38);
+
+        add_subject_bs_ug6.setText("Add Subject");
+        add_subject_bs_ug6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug6ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects2.setText("View Undergraduate Subjects");
+        view_bs_ug_subjects2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects2ActionPerformed(evt);
+            }
+        });
+
+        add_subject_bs_ug7.setText("Update Subject");
+        add_subject_bs_ug7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subject_bs_ug7ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects_ins2.setText("View UG Subjects Teaching Allocation of Instructors");
+        view_bs_ug_subjects_ins2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects_ins2ActionPerformed(evt);
+            }
+        });
+
+        view_bs_ug_subjects_lec2.setText("View UG Subjects Teaching Allocation of Lecturers");
+        view_bs_ug_subjects_lec2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_bs_ug_subjects_lec2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel52Layout = new javax.swing.GroupLayout(jPanel52);
+        jPanel52.setLayout(jPanel52Layout);
+        jPanel52Layout.setHorizontalGroup(
+            jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel52Layout.createSequentialGroup()
+                .addGap(56, 56, 56)
+                .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(view_bs_ug_subjects2, javax.swing.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE)
+                    .addComponent(add_subject_bs_ug7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(add_subject_bs_ug6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(79, 79, 79)
+                .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(view_bs_ug_subjects_lec2, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(view_bs_ug_subjects_ins2, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(318, Short.MAX_VALUE))
+        );
+        jPanel52Layout.setVerticalGroup(
+            jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel52Layout.createSequentialGroup()
+                .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel52Layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(add_subject_bs_ug6, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel52Layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(view_bs_ug_subjects_lec2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel52Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(add_subject_bs_ug7, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(view_bs_ug_subjects2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel52Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(view_bs_ug_subjects_ins2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(240, Short.MAX_VALUE))
+        );
+
+        jTabbedPane8.addTab("Subjects", jPanel52);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jTabbedPane4)
-                .addGap(106, 106, 106))
+                .addContainerGap()
+                .addComponent(jTabbedPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 965, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(43, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(43, Short.MAX_VALUE)
-                .addComponent(jTabbedPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("School of Computing", jPanel1);
 
-        jButton1.setText("Add User");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        academic_dep.setText("Academic Department");
+        academic_dep.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                academic_depActionPerformed(evt);
+            }
+        });
+
+        log_out.setText("Log Out");
+        log_out.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                log_outActionPerformed(evt);
             }
         });
 
@@ -308,21 +2031,25 @@ public class MainPanelFrame extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(academic_dep, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(93, 93, 93)
+                .addComponent(log_out, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(75, 75, 75))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane1)
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(82, 82, 82))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton1)
-                .addGap(22, 22, 22)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(academic_dep, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(log_out, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE))
+                .addGap(17, 17, 17)
                 .addComponent(jTabbedPane1)
                 .addContainerGap())
         );
@@ -331,64 +2058,443 @@ public class MainPanelFrame extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-            UserDetailsFrame udf=new UserDetailsFrame();
-            udf.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void view_bs_ug_subjects_lecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects_lecActionPerformed
+        ViewTeachingAllocationFrame vtaf = new ViewTeachingAllocationFrame();
+        vtaf.setVisible(true);
+        vtaf.fac = "  School of Business";
+        vtaf.course_type = "  Undergraduate Subjects";
+        vtaf.setFields();
+        vtaf.facult = "bs";
+        vtaf.type = "ug";
+        vtaf.post = "Lecturer";
+        vtaf.loadSubjectsLec();
 
-    private void add_bs_pg_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_pg_studentActionPerformed
-            
-        AddStudentFrame asf=new AddStudentFrame();
-        asf.setVisible(true);
-        asf.fac="bs";
-        
-            
-    }//GEN-LAST:event_add_bs_pg_studentActionPerformed
+    }//GEN-LAST:event_view_bs_ug_subjects_lecActionPerformed
 
-    private void add_bs_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_studentActionPerformed
-        AddStudentFrame asf=new AddStudentFrame();
-        asf.setVisible(true);
-        asf.fac="bs";
-        asf.year="1";
-        asf.semester="1";
-    }//GEN-LAST:event_add_bs_ug_studentActionPerformed
+    private void view_bs_ug_subjects_insActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects_insActionPerformed
+        ViewTeachingAllocationFrame vtaf = new ViewTeachingAllocationFrame();
+        vtaf.setVisible(true);
+        vtaf.fac = "  School of Business";
+        vtaf.course_type = "  Undergraduate Subjects";
+        vtaf.setFields();
+        vtaf.facult = "bs";
+        vtaf.type = "ug";
+        vtaf.post = "Instructor";
+        vtaf.loadSubjectsInstructor();
+    }//GEN-LAST:event_view_bs_ug_subjects_insActionPerformed
+
+    private void add_subject_bs_ug4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug4ActionPerformed
+        UpdateSubjectsFrame usf=new UpdateSubjectsFrame();
+        usf.setVisible(true);
+    }//GEN-LAST:event_add_subject_bs_ug4ActionPerformed
+
+    private void view_bs_ug_subjectsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjectsActionPerformed
+        ViewSubjectsFrame vsf = new ViewSubjectsFrame();
+        vsf.setVisible(true);
+        vsf.fac = "  School of Business";
+        vsf.course_type = "  Undergraduate Subjects";
+        vsf.facult = "bs";
+        vsf.course_tp = "ug";
+        vsf.setFields();
+        vsf.loadSubjects();
+    }//GEN-LAST:event_view_bs_ug_subjectsActionPerformed
 
     private void add_subject_bs_ugActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ugActionPerformed
-        AddSubject as=new AddSubject();
+        AddSubject as = new AddSubject();
         as.setVisible(true);
-        as.fac=11;//business 1 ug 1 
-        
-        
-        
+        as.fac = 11;//business 1 ug 1
+        as.faculty = "bs";
+        as.course_type = "ug";
+        as.select_instructors();
+        as.select_lectures();
+        as.setVenue();
     }//GEN-LAST:event_add_subject_bs_ugActionPerformed
 
-    private void add_bs_pg_student1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_pg_student1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_add_bs_pg_student1ActionPerformed
+    private void view_bs_ug_stu_resultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu_resultActionPerformed
+        StudentIdEnterFrame sief = new StudentIdEnterFrame();
+        sief.setVisible(true);
+        sief.fac = "bs";
+        sief.mode = 3;
+        sief.setMarkMode("Student Result");
+    }//GEN-LAST:event_view_bs_ug_stu_resultActionPerformed
 
-    private void add_es_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_es_ug_studentActionPerformed
-        AddStudentFrame asf=new AddStudentFrame();
+    private void enter_bs_ug_asg_markActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_asg_markActionPerformed
+        StudentIdEnterFrame sief = new StudentIdEnterFrame();// open the window to enter the student ID
+        sief.setVisible(true);
+        sief.fac = "bs";
+        sief.mode = 1;
+        sief.setMarkMode("Assignment");
+    }//GEN-LAST:event_enter_bs_ug_asg_markActionPerformed
+
+    private void enter_bs_ug_exam_markActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_exam_markActionPerformed
+        StudentIdEnterFrame sief = new StudentIdEnterFrame();// open the window to enter the student ID
+        sief.setVisible(true);
+        sief.fac = "bs";
+        sief.mode = 2;
+        sief.setMarkMode("Examination");
+    }//GEN-LAST:event_enter_bs_ug_exam_markActionPerformed
+
+    private void view_bs_ug_stuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stuActionPerformed
+        ViewStudentsFrame vsf = new ViewStudentsFrame();
+        vsf.setVisible(true);
+        vsf.fac = "  School of Business";
+        vsf.course_type = "  Undergraduate Student";
+        vsf.setFields();
+        vsf.facult = "bs";
+        vsf.course_tp = "ug";
+        vsf.loadStudents();
+
+    }//GEN-LAST:event_view_bs_ug_stuActionPerformed
+
+    private void update_bs_ug_stuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_bs_ug_stuActionPerformed
+        Student stu = new Student();
+        AddStudentFrame asf = new AddStudentFrame();
         asf.setVisible(true);
-        asf.fac="es";
-    }//GEN-LAST:event_add_es_ug_studentActionPerformed
+        asf.updating = "Yes";
+        asf.course_tp = "ug";
+    }//GEN-LAST:event_update_bs_ug_stuActionPerformed
 
-    private void add_subject_bs_ug1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_add_subject_bs_ug1ActionPerformed
-
-    private void add_bs_pg_student2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_pg_student2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_add_bs_pg_student2ActionPerformed
-
-    private void add_cs_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_cs_ug_studentActionPerformed
-        AddStudentFrame asf=new AddStudentFrame();
+    private void add_bs_ug_studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_studentActionPerformed
+        AddStudentFrame asf = new AddStudentFrame();
         asf.setVisible(true);
-        asf.fac="cs";
-    }//GEN-LAST:event_add_cs_ug_studentActionPerformed
+        asf.fac = "bs";
+        asf.year = "1";
+        asf.semester = "1";
+        asf.four_year = "No";
+        asf.updating = "No";
+        asf.course_tp = "ug";
+    }//GEN-LAST:event_add_bs_ug_studentActionPerformed
 
-    private void add_subject_bs_ug2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug2ActionPerformed
+    private void update_yns_febActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_febActionPerformed
+        UpdateSemNYear usny = new UpdateSemNYear();
+        usny.setVisible(true);
+        usny.fac = "bs";
+        usny.intake = "February";
+        usny.course_type = "ug";
+        usny.facult = "  School of Business";
+        usny.setFields();
+    }//GEN-LAST:event_update_yns_febActionPerformed
+
+    private void update_yns_julyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_julyActionPerformed
+        UpdateSemNYear usny = new UpdateSemNYear();
+        usny.setVisible(true);
+        usny.fac = "bs";
+        usny.intake = "July";
+        usny.course_type = "ug";
+        usny.facult = "  School of Business";
+        usny.setFields();
+    }//GEN-LAST:event_update_yns_julyActionPerformed
+
+    private void bs_ug_paymentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_paymentActionPerformed
+        PaymentStudentFrame sp = new PaymentStudentFrame();
+        sp.setVisible(true);
+        sp.fac = "bs";
+    }//GEN-LAST:event_bs_ug_paymentActionPerformed
+
+    private void bs_ug_payment1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment1ActionPerformed
+        StudentPaymentHistoryFrame vsf = new StudentPaymentHistoryFrame();
+        vsf.setVisible(true);
+        vsf.faculty = "bs";
+        vsf.course_tp = "ug";
+        vsf.loadPayments();
+
+    }//GEN-LAST:event_bs_ug_payment1ActionPerformed
+
+    private void change_sub_bs_ug_stuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_change_sub_bs_ug_stuActionPerformed
+        ChangeStudentSubjectFrame cssf = new ChangeStudentSubjectFrame();
+        cssf.setVisible(true);
+        cssf.faculty = "bs";
+        cssf.course_tp = "ug";
+    }//GEN-LAST:event_change_sub_bs_ug_stuActionPerformed
+
+    private void academic_depActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_academic_depActionPerformed
+        AcademicDepartmentFrame adf = new AcademicDepartmentFrame();
+        adf.setVisible(true);
+    }//GEN-LAST:event_academic_depActionPerformed
+
+    private void log_outActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_log_outActionPerformed
+        dispose();
+        LoginFrame lg = new LoginFrame();
+        lg.setVisible(true);
+    }//GEN-LAST:event_log_outActionPerformed
+
+    private void add_bs_ug_student2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student2ActionPerformed
+        AddStudentFrame asf = new AddStudentFrame();
+        asf.setVisible(true);
+        asf.fac = "bs";
+        asf.year = "1";
+        asf.semester = "1";
+        asf.four_year = "No";
+        asf.updating = "No";
+        asf.course_tp = "pg";
+    }//GEN-LAST:event_add_bs_ug_student2ActionPerformed
+
+    private void update_bs_ug_stu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_bs_ug_stu2ActionPerformed
+Student stu = new Student();
+        AddStudentFrame asf = new AddStudentFrame();
+        asf.setVisible(true);
+        asf.updating = "Yes";
+        asf.course_tp = "pg";
+    }//GEN-LAST:event_update_bs_ug_stu2ActionPerformed
+
+    private void view_bs_ug_stu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu2ActionPerformed
+       ViewStudentsFrame vsf = new ViewStudentsFrame();
+        vsf.setVisible(true);
+        vsf.fac = "  School of Business";
+        vsf.course_type = "  Undergraduate Student";
+        vsf.setFields();
+        vsf.facult = "bs";
+        vsf.course_tp = "pg";
+        vsf.loadStudents();
+    }//GEN-LAST:event_view_bs_ug_stu2ActionPerformed
+
+    private void change_sub_bs_ug_stu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_change_sub_bs_ug_stu2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_add_subject_bs_ug2ActionPerformed
+    }//GEN-LAST:event_change_sub_bs_ug_stu2ActionPerformed
+
+    private void enter_bs_ug_exam_mark2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_exam_mark2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_exam_mark2ActionPerformed
+
+    private void enter_bs_ug_asg_mark2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_asg_mark2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_asg_mark2ActionPerformed
+
+    private void view_bs_ug_stu_result2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu_result2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu_result2ActionPerformed
+
+    private void update_yns_feb2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_feb2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_feb2ActionPerformed
+
+    private void update_yns_july2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_july2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_july2ActionPerformed
+
+    private void bs_ug_payment4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment4ActionPerformed
+
+    private void bs_ug_payment5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment5ActionPerformed
+
+    private void add_bs_ug_student1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_ug_student1ActionPerformed
+
+    private void update_bs_ug_stu1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_bs_ug_stu1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_bs_ug_stu1ActionPerformed
+
+    private void view_bs_ug_stu1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu1ActionPerformed
+
+    private void change_sub_bs_ug_stu1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_change_sub_bs_ug_stu1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_change_sub_bs_ug_stu1ActionPerformed
+
+    private void enter_bs_ug_exam_mark1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_exam_mark1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_exam_mark1ActionPerformed
+
+    private void enter_bs_ug_asg_mark1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_asg_mark1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_asg_mark1ActionPerformed
+
+    private void view_bs_ug_stu_result1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu_result1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu_result1ActionPerformed
+
+    private void update_yns_feb1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_feb1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_feb1ActionPerformed
+
+    private void update_yns_july1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_july1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_july1ActionPerformed
+
+    private void bs_ug_payment2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment2ActionPerformed
+
+    private void bs_ug_payment3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment3ActionPerformed
+
+    private void add_bs_ug_student3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_ug_student3ActionPerformed
+
+    private void update_bs_ug_stu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_bs_ug_stu3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_bs_ug_stu3ActionPerformed
+
+    private void view_bs_ug_stu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu3ActionPerformed
+
+    private void change_sub_bs_ug_stu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_change_sub_bs_ug_stu3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_change_sub_bs_ug_stu3ActionPerformed
+
+    private void enter_bs_ug_exam_mark3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_exam_mark3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_exam_mark3ActionPerformed
+
+    private void enter_bs_ug_asg_mark3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_asg_mark3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_asg_mark3ActionPerformed
+
+    private void view_bs_ug_stu_result3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu_result3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu_result3ActionPerformed
+
+    private void update_yns_feb3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_feb3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_feb3ActionPerformed
+
+    private void update_yns_july3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_july3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_july3ActionPerformed
+
+    private void bs_ug_payment6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment6ActionPerformed
+
+    private void bs_ug_payment7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment7ActionPerformed
+
+    private void add_subject_bs_ug3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_subject_bs_ug3ActionPerformed
+
+    private void view_bs_ug_subjects1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_subjects1ActionPerformed
+
+    private void add_subject_bs_ug5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_subject_bs_ug5ActionPerformed
+
+    private void view_bs_ug_subjects_ins1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects_ins1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_subjects_ins1ActionPerformed
+
+    private void view_bs_ug_subjects_lec1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects_lec1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_subjects_lec1ActionPerformed
+
+    private void add_bs_ug_student4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_ug_student4ActionPerformed
+
+    private void update_bs_ug_stu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_bs_ug_stu4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_bs_ug_stu4ActionPerformed
+
+    private void view_bs_ug_stu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu4ActionPerformed
+
+    private void change_sub_bs_ug_stu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_change_sub_bs_ug_stu4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_change_sub_bs_ug_stu4ActionPerformed
+
+    private void enter_bs_ug_exam_mark4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_exam_mark4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_exam_mark4ActionPerformed
+
+    private void enter_bs_ug_asg_mark4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_asg_mark4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_asg_mark4ActionPerformed
+
+    private void view_bs_ug_stu_result4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu_result4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu_result4ActionPerformed
+
+    private void update_yns_feb4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_feb4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_feb4ActionPerformed
+
+    private void update_yns_july4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_july4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_july4ActionPerformed
+
+    private void bs_ug_payment8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment8ActionPerformed
+
+    private void bs_ug_payment9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment9ActionPerformed
+
+    private void add_bs_ug_student5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_bs_ug_student5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_bs_ug_student5ActionPerformed
+
+    private void update_bs_ug_stu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_bs_ug_stu5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_bs_ug_stu5ActionPerformed
+
+    private void view_bs_ug_stu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu5ActionPerformed
+
+    private void change_sub_bs_ug_stu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_change_sub_bs_ug_stu5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_change_sub_bs_ug_stu5ActionPerformed
+
+    private void enter_bs_ug_exam_mark5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_exam_mark5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_exam_mark5ActionPerformed
+
+    private void enter_bs_ug_asg_mark5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enter_bs_ug_asg_mark5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_enter_bs_ug_asg_mark5ActionPerformed
+
+    private void view_bs_ug_stu_result5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_stu_result5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_stu_result5ActionPerformed
+
+    private void update_yns_feb5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_feb5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_feb5ActionPerformed
+
+    private void update_yns_july5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_update_yns_july5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_update_yns_july5ActionPerformed
+
+    private void bs_ug_payment10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment10ActionPerformed
+
+    private void bs_ug_payment11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bs_ug_payment11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bs_ug_payment11ActionPerformed
+
+    private void add_subject_bs_ug6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_subject_bs_ug6ActionPerformed
+
+    private void view_bs_ug_subjects2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_subjects2ActionPerformed
+
+    private void add_subject_bs_ug7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subject_bs_ug7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_add_subject_bs_ug7ActionPerformed
+
+    private void view_bs_ug_subjects_ins2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects_ins2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_subjects_ins2ActionPerformed
+
+    private void view_bs_ug_subjects_lec2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_bs_ug_subjects_lec2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_view_bs_ug_subjects_lec2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -426,28 +2532,143 @@ public class MainPanelFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton add_bs_pg_student;
-    private javax.swing.JButton add_bs_pg_student1;
-    private javax.swing.JButton add_bs_pg_student2;
+    private javax.swing.JButton academic_dep;
     private javax.swing.JButton add_bs_ug_student;
-    private javax.swing.JButton add_cs_ug_student;
-    private javax.swing.JButton add_es_ug_student;
+    private javax.swing.JButton add_bs_ug_student1;
+    private javax.swing.JButton add_bs_ug_student2;
+    private javax.swing.JButton add_bs_ug_student3;
+    private javax.swing.JButton add_bs_ug_student4;
+    private javax.swing.JButton add_bs_ug_student5;
     private javax.swing.JButton add_subject_bs_ug;
-    private javax.swing.JButton add_subject_bs_ug1;
-    private javax.swing.JButton add_subject_bs_ug2;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton add_subject_bs_ug3;
+    private javax.swing.JButton add_subject_bs_ug4;
+    private javax.swing.JButton add_subject_bs_ug5;
+    private javax.swing.JButton add_subject_bs_ug6;
+    private javax.swing.JButton add_subject_bs_ug7;
+    private javax.swing.JButton bs_ug_payment;
+    private javax.swing.JButton bs_ug_payment1;
+    private javax.swing.JButton bs_ug_payment10;
+    private javax.swing.JButton bs_ug_payment11;
+    private javax.swing.JButton bs_ug_payment2;
+    private javax.swing.JButton bs_ug_payment3;
+    private javax.swing.JButton bs_ug_payment4;
+    private javax.swing.JButton bs_ug_payment5;
+    private javax.swing.JButton bs_ug_payment6;
+    private javax.swing.JButton bs_ug_payment7;
+    private javax.swing.JButton bs_ug_payment8;
+    private javax.swing.JButton bs_ug_payment9;
+    private javax.swing.JButton change_sub_bs_ug_stu;
+    private javax.swing.JButton change_sub_bs_ug_stu1;
+    private javax.swing.JButton change_sub_bs_ug_stu2;
+    private javax.swing.JButton change_sub_bs_ug_stu3;
+    private javax.swing.JButton change_sub_bs_ug_stu4;
+    private javax.swing.JButton change_sub_bs_ug_stu5;
+    private javax.swing.JButton enter_bs_ug_asg_mark;
+    private javax.swing.JButton enter_bs_ug_asg_mark1;
+    private javax.swing.JButton enter_bs_ug_asg_mark2;
+    private javax.swing.JButton enter_bs_ug_asg_mark3;
+    private javax.swing.JButton enter_bs_ug_asg_mark4;
+    private javax.swing.JButton enter_bs_ug_asg_mark5;
+    private javax.swing.JButton enter_bs_ug_exam_mark;
+    private javax.swing.JButton enter_bs_ug_exam_mark1;
+    private javax.swing.JButton enter_bs_ug_exam_mark2;
+    private javax.swing.JButton enter_bs_ug_exam_mark3;
+    private javax.swing.JButton enter_bs_ug_exam_mark4;
+    private javax.swing.JButton enter_bs_ug_exam_mark5;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel40;
+    private javax.swing.JPanel jPanel41;
+    private javax.swing.JPanel jPanel42;
+    private javax.swing.JPanel jPanel43;
+    private javax.swing.JPanel jPanel44;
+    private javax.swing.JPanel jPanel45;
+    private javax.swing.JPanel jPanel46;
+    private javax.swing.JPanel jPanel47;
+    private javax.swing.JPanel jPanel48;
+    private javax.swing.JPanel jPanel49;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
+    private javax.swing.JPanel jPanel50;
+    private javax.swing.JPanel jPanel51;
+    private javax.swing.JPanel jPanel52;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTabbedPane jTabbedPane3;
-    private javax.swing.JTabbedPane jTabbedPane4;
+    private javax.swing.JTabbedPane jTabbedPane5;
+    private javax.swing.JTabbedPane jTabbedPane6;
+    private javax.swing.JTabbedPane jTabbedPane7;
+    private javax.swing.JTabbedPane jTabbedPane8;
+    private javax.swing.JTabbedPane jTabbedPane9;
+    private javax.swing.JButton log_out;
+    private javax.swing.JButton update_bs_ug_stu;
+    private javax.swing.JButton update_bs_ug_stu1;
+    private javax.swing.JButton update_bs_ug_stu2;
+    private javax.swing.JButton update_bs_ug_stu3;
+    private javax.swing.JButton update_bs_ug_stu4;
+    private javax.swing.JButton update_bs_ug_stu5;
+    private javax.swing.JButton update_yns_feb;
+    private javax.swing.JButton update_yns_feb1;
+    private javax.swing.JButton update_yns_feb2;
+    private javax.swing.JButton update_yns_feb3;
+    private javax.swing.JButton update_yns_feb4;
+    private javax.swing.JButton update_yns_feb5;
+    private javax.swing.JButton update_yns_july;
+    private javax.swing.JButton update_yns_july1;
+    private javax.swing.JButton update_yns_july2;
+    private javax.swing.JButton update_yns_july3;
+    private javax.swing.JButton update_yns_july4;
+    private javax.swing.JButton update_yns_july5;
+    private javax.swing.JButton view_bs_ug_stu;
+    private javax.swing.JButton view_bs_ug_stu1;
+    private javax.swing.JButton view_bs_ug_stu2;
+    private javax.swing.JButton view_bs_ug_stu3;
+    private javax.swing.JButton view_bs_ug_stu4;
+    private javax.swing.JButton view_bs_ug_stu5;
+    private javax.swing.JButton view_bs_ug_stu_result;
+    private javax.swing.JButton view_bs_ug_stu_result1;
+    private javax.swing.JButton view_bs_ug_stu_result2;
+    private javax.swing.JButton view_bs_ug_stu_result3;
+    private javax.swing.JButton view_bs_ug_stu_result4;
+    private javax.swing.JButton view_bs_ug_stu_result5;
+    private javax.swing.JButton view_bs_ug_subjects;
+    private javax.swing.JButton view_bs_ug_subjects1;
+    private javax.swing.JButton view_bs_ug_subjects2;
+    private javax.swing.JButton view_bs_ug_subjects_ins;
+    private javax.swing.JButton view_bs_ug_subjects_ins1;
+    private javax.swing.JButton view_bs_ug_subjects_ins2;
+    private javax.swing.JButton view_bs_ug_subjects_lec;
+    private javax.swing.JButton view_bs_ug_subjects_lec1;
+    private javax.swing.JButton view_bs_ug_subjects_lec2;
     // End of variables declaration//GEN-END:variables
 }

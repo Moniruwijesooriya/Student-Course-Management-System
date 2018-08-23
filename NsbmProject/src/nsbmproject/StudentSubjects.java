@@ -10,6 +10,48 @@ package nsbmproject;
  * @author MONIRU CMY
  */
 public class StudentSubjects {
+
+    /**
+     * @return the course_type
+     */
+    public String getCourse_type() {
+        return course_type;
+    }
+
+    /**
+     * @param course_type the course_type to set
+     */
+    public void setCourse_type(String course_type) {
+        this.course_type = course_type;
+    }
+
+    /**
+     * @return the com_sub3
+     */
+    public String getCom_sub3() {
+        return com_sub3;
+    }
+
+    /**
+     * @param com_sub3 the com_sub3 to set
+     */
+    public void setCom_sub3(String com_sub3) {
+        this.com_sub3 = com_sub3;
+    }
+
+    /**
+     * @return the com_sub4
+     */
+    public String getCom_sub4() {
+        return com_sub4;
+    }
+
+    /**
+     * @param com_sub4 the com_sub4 to set
+     */
+    public void setCom_sub4(String com_sub4) {
+        this.com_sub4 = com_sub4;
+    }
     
     /**
      * @return the stu_id
@@ -122,58 +164,18 @@ public class StudentSubjects {
     public void setOpt_sub2(String opt_sub2) {
         this.opt_sub2 = opt_sub2;
     }
-
-    /**
-     * @return the opt_sub3
-     */
-    public String getOpt_sub3() {
-        return opt_sub3;
-    }
-
-    /**
-     * @param opt_sub3 the opt_sub3 to set
-     */
-    public void setOpt_sub3(String opt_sub3) {
-        this.opt_sub3 = opt_sub3;
-    }
-
-    /**
-     * @return the opt_sub4
-     */
-    public String getOpt_sub4() {
-        return opt_sub4;
-    }
-
-    /**
-     * @param opt_sub4 the opt_sub4 to set
-     */
-    public void setOpt_sub4(String opt_sub4) {
-        this.opt_sub4 = opt_sub4;
-    }
-
-    /**
-     * @return the opt_sub5
-     */
-    public String getOpt_sub5() {
-        return opt_sub5;
-    }
-
-    /**
-     * @param opt_sub5 the opt_sub5 to set
-     */
-    public void setOpt_sub5(String opt_sub5) {
-        this.opt_sub5 = opt_sub5;
-    }
+    
     private String stu_id;
     private String faculty;
     private String semester;
     private String year;
     private String com_sub1;
     private String com_sub2;
+    private String com_sub3;
+    private String com_sub4;
     private String opt_sub1;
     private String opt_sub2;
-    private String opt_sub3;
-    private String opt_sub4;
-    private String opt_sub5;
+    private String course_type;
+
 
 }

@@ -5,6 +5,8 @@
  */
 package nsbmproject;
 
+
+
 /**
  *
  * @author MONIRU CMY
@@ -14,16 +16,15 @@ public class NsbmProject {
     /**
      * @param args the command line arguments
      */
+    DbAcademic dba = new DbAcademic();
+
     public static void main(String[] args) {
-        //LoginFrame lf=new LoginFrame();
-        //lf.setVisible(true);
-        //AddStudentFrame asf=new AddStudentFrame();
-        //asf.setVisible(true);
-        MainPanelFrame mpf=new MainPanelFrame();
-        mpf.setVisible(true);
-        //SelectSubjectFrame ssf=new SelectSubjectFrame();
-       // ssf.setVisible(true);
+        LoginFrame lf=new LoginFrame();
+       lf.setVisible(true);
+
         
+        
+
     }
-    
+
 }

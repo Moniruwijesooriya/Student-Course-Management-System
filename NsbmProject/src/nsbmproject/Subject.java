@@ -12,6 +12,34 @@ package nsbmproject;
 public class Subject {
 
     /**
+     * @return the course_type
+     */
+    public String getCourse_type() {
+        return course_type;
+    }
+
+    /**
+     * @param course_type the course_type to set
+     */
+    public void setCourse_type(String course_type) {
+        this.course_type = course_type;
+    }
+
+    /**
+     * @return the faculty
+     */
+    public String getFaculty() {
+        return faculty;
+    }
+
+    /**
+     * @param faculty the faculty to set
+     */
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
+
+    /**
      * @return the selection
      */
     public String getSelection() {
@@ -115,5 +143,7 @@ public class Subject {
     private String semester;
     private String year;
     private String selection;
+    private String faculty;
+    private String course_type;
     
 }
